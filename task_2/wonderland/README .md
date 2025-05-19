@@ -61,14 +61,14 @@ def xor_string_with_key(s, key=0x41524241):
 
     # החזר מחרוזת
     return output.decode('ascii')
-
+```
 #  דוגמה לשימוש:
 original = "into the rabbit hole"
 encrypted = xor_string_with_key(original)
 decrypted = xor_string_with_key(encrypted)
 
 print(" מוצפן:", encrypted)
-print(" מפוענח:", decrypted)```
+print(" מפוענח:", decrypted)
 ## הרצה מוצלחת:
 - הזנו את תוצאת סקריפט הפייתון כקלט לתוכנית, וקיבלנו הודעת הצלחה:
 ![image](https://github.com/user-attachments/assets/09ac68de-9c05-441d-9690-aefe68b71f2c)
